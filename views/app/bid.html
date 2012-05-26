@@ -1,9 +1,9 @@
 <Body:>
   <!-- <img style="-webkit-user-select: none; cursor: -webkit-zoom-in; " src="http://images4.fanpop.com/image/photos/24000000/ice-cream-Yummy-ice-cream-24070273-696-1250.jpg" width="126" height="226"> -->
-  <h1>Welcome {{_user.name}}!</h1>
+  <h1>Welcome {{_user.id}}!</h1>
   <p>Your current bid is {_user.bid}! </p><br>
   
-  <form x-bind='submit:bid'>
-    <input type='number' id='bid' min='1' step='1' value='{{_user.bid}}' pattern='[0-9]{1,}' max='9999999999'>
+  
+    <input type='number' id='bidvalue' min='1' step='1' value='{_user.bid}' max='9999999999'>
     <input type='submit' value='Bid' >
-  </form>
+  
