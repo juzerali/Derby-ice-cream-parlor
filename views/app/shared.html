@@ -1,7 +1,8 @@
 <pointer:>
-  <div>This auction ending at {auction.0.ending} </div>
+  <div>This auction with id {auction.0.xid} is ending at {auction.0.ending} </div>
   <div>Current Winner {auction.0.winner}</div>
   <div>Last run: {auction.0.ended}</div>
+  testts:{auction.0.winner}
 <alert:>
   <div id=alert>
     {#unless connected}
