@@ -2,6 +2,7 @@
   "name": "derby-kitchen-sink-example",
   "description": "Demo of Derby features",
   "version": "0.6.17",
+  "node": "0.6.17",
   "main": "./server.js",
   "dependencies": {
     "derby": "*",
